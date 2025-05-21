@@ -1,17 +1,30 @@
-Prueba tecnica para juniors 
+Crea una aplicación para buscar películas
 
-APIs:
+API a usar: - npm run dev
+ Consigue la API Key en la propia página web registrando tu email.
 
-Facts Random: https://catfact.ninja/fact
+ -API_KEY : 1c161f90
 
-Imagen random: https://cataas.com/cat/says/hello
+https://www.omdbapi.com/?i=tt3896198&apikey=1c161f90
 
-endpoint paa usar:  `https://cataas.com/cat/says/${firstWord}?fontSize=50&fontColor=red&json=true`
+Requerimientos:
 
-Recupera un hecho aleatorio de gatos de la primera API
+✅ Necesita mostrar un input para buscar la película y un botón para buscar.
 
-Recuperar la primera palabra del hecho
+✅ Lista las películas y muestra el título, año y poster.
 
-Muestra una imagen de un gato con la primera palabra.
+✅ Que el formulario funcione
 
-Playwrigth - para hacer test. se instala y se inicia desde la consola
+✅ Haz que las películas se muestren en un grid responsive.
+
+✅ Hacer el fetching de datos a la API
+
+Primera iteración:
+
+✅ Evitar que se haga la misma búsqueda dos veces seguidas.
+
+✅ Haz que la búsqueda se haga automáticamente al escribir.
+
+✅ Evita que se haga la búsqueda continuamente al escribir (debounce)
+
+//watter.css - estilos rapidos y sencillos
